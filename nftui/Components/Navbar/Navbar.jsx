@@ -14,7 +14,7 @@ import { CgMenuLeft, CgMenuRight } from "react-icons/cg";
 //internal import
 import style from "./navbar.module.css";
 import { Discover, Sidebar, Notification, Profile, Help } from "./index";
-import Button from "../Button/button";
+import Button from "../Button/Button";
 import images from "../img/index";
 
 const Navbar = () => {

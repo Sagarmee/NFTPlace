@@ -56,6 +56,8 @@
 
 .footer_send_mail input::placeholder {
   color: var(--shadow-dark-color);
+  font-size: 1.3rem;
+  text-transform: capitalize;
 }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {

@@ -18,7 +18,7 @@ import {
 //internal import file
 import style from "./sidebar.module.css";
 import images from "../../img/index";
-import Button from "../../Button/button";
+import Button from "../../Button/Button";
 
 //pass the props so i can easily manage the sidebar
 const Sidebar = ({ setSideMenu }) => {

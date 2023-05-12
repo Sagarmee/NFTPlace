@@ -104,7 +104,6 @@
 .sidebar {
   position: fixed;
   top: 0;
-  border: 1px solid black;
   width: 29rem;
   background-color: var(--main-bg-color);
   box-shadow: var(--box-shadow);
