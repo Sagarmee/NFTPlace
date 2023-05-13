@@ -12,7 +12,12 @@ const Services = () => {
       <div className={style.services_box}>
         <div className={style.services}>
           <div className={style.services_image}>
-            <Image src={images.service1} width={100} height={100} />
+            <Image
+              src={images.service1}
+              width={100}
+              height={100}
+              alt="services-1"
+            />
           </div>
           <div className={style.services_detail}>
             <div className={style.services_label}>
@@ -26,7 +31,12 @@ const Services = () => {
         </div>
         <div className={style.services}>
           <div className={style.services_image}>
-            <Image src={images.service2} width={100} height={100} />
+            <Image
+              src={images.service2}
+              width={100}
+              height={100}
+              alt="services-2"
+            />
           </div>
           <div className={style.services_detail}>
             <div className={style.services_label}>
@@ -40,7 +50,12 @@ const Services = () => {
         </div>
         <div className={style.services}>
           <div className={style.services_image}>
-            <Image src={images.service3} width={100} height={100} />
+            <Image
+              src={images.service3}
+              width={100}
+              height={100}
+              alt="services-3"
+            />
           </div>
           <div className={style.services_detail}>
             <div className={style.services_label}>
@@ -54,7 +69,12 @@ const Services = () => {
         </div>
         <div className={style.services}>
           <div className={style.services_image}>
-            <Image src={images.service4} width={100} height={100} />
+            <Image
+              src={images.service4}
+              width={100}
+              height={100}
+              alt="services-4"
+            />
           </div>
           <div className={style.services_detail}>
             <div className={style.services_label}>

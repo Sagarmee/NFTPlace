@@ -20,7 +20,7 @@ export const Footer = () => {
       <div className={style.footer_container}>
         <div className={style.footer_nft_detail}>
           <div className={style.footer_nft_detail_logo}>
-            <Image src={images.logo} width={100} height={100} />
+            <Image src={images.logo} width={100} height={100} alt="nft brand" />
           </div>
           <div className={style.footer_nft_detail_details}>
             <p>

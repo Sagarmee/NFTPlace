@@ -30,7 +30,7 @@ const Help = () => {
   return (
     <div>
       {help.map((item, i) => (
-        <div className={style.help}>
+        <div key={i + 1} className={style.help}>
           <Link href={{ pathname: `${item.url}` }}>{item.name}</Link>
         </div>
       ))}
