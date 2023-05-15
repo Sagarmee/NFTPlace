@@ -1,7 +1,12 @@
 import React from "react";
 import style from "../styles/home.module.css";
 
-import { Herosection, Nftslider, Services } from "../Components/componentindex";
+import {
+  Herosection,
+  Nftslider,
+  Services,
+  Subscribe,
+} from "../Components/componentindex";
 
 const Home = () => {
   return (
@@ -9,6 +14,7 @@ const Home = () => {
       <Herosection />
       <Services />
       <Nftslider />
+      <Subscribe />
     </div>
   );
 };

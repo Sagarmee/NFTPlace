@@ -20,12 +20,12 @@ const Herosection = () => {
           <Button btnName="Start your search" />
         </div>
         <div className={style.heroSection_box_right}>
-          <Image
+          {/* <Image
             src={images.hero}
             alt="Hero section"
             width={600}
             height={600}
-          />
+          /> */}
         </div>
       </div>
       {/* <div style={style.heroSection_filter}>
