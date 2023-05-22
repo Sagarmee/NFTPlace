@@ -5,6 +5,7 @@ import { RiSendPlaneFill } from "react-icons/ri";
 //internal import
 import style from "./Subscribe.module.css";
 import images from "../img/index";
+import { Title } from "../componentindex";
 
 const Subscribe = () => {
   return (
@@ -12,11 +13,11 @@ const Subscribe = () => {
       <div className={style.subscribe_box}>
         <div className={style.subscribe_box_left}>
           <div className={style.subscribe_box_left_details}>
-            <h2>Never miss a drop</h2>
-            <p>
-              subscribe to our super-exclusive drop list and be the first to
-              know about t upcoming drops
-            </p>
+            <Title heading="Never miss a drop" />
+            <Title
+              paragraph="subscribe to our super-exclusive drop list and be the first to
+              know about t upcoming drops"
+            />
           </div>
           <div className={style.subscribe_box_left_list}>
             <div className={style.subscribe_box_left_list_detail_label}>

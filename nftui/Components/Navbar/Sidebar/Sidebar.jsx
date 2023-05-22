@@ -19,6 +19,7 @@ import {
 import style from "./sidebar.module.css";
 import images from "../../img/index";
 import Button from "../../Button/Button";
+import { Title } from "../../componentindex";
 
 //pass the props so i can easily manage the sidebar
 const Sidebar = ({ setSideMenu }) => {
@@ -103,10 +104,10 @@ const Sidebar = ({ setSideMenu }) => {
       />
       <div className={style.sidebar_box}>
         <Image src={images.logo} alt="nft logo" width={150} height={150} />
-        <p>
-          Discover the most outstanding articles on all topices of NFT & write
-          your own stories and share them
-        </p>
+        <Title
+          paragraph="Discover the most outstanding articles on all topices of NFT & write
+          your own stories and share them"
+        />
 
         <div className={style.sidebar_social}>
           <a href="#">

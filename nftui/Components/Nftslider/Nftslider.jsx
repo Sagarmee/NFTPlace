@@ -8,7 +8,7 @@ import { TbArrowBigLeftLines, TbArrowBigRightLine } from "react-icons/tb";
 //internal import
 import style from "./Nftslider.module.css";
 import images from "../img/index";
-import { Button } from "../componentindex";
+import { Button, Title } from "../componentindex";
 import { Sidebar } from "../Navbar";
 
 const Nftslider = () => {
@@ -98,7 +98,7 @@ const Nftslider = () => {
     <div className={style.nftslider}>
       <div className={style.nftslider_box}>
         <div className={style.nftslider_box_left}>
-          <h2>{sliderdata[idNumber].title}</h2>
+          <Title heading={sliderdata[idNumber].title} />
           <div className={style.nftslider_box_creator}>
             <div className={style.nftslider_box_creator_profile}>
               <Image
@@ -187,11 +187,11 @@ const Nftslider = () => {
 
         <div className={style.nftslider_box_right}>
           <div className={style.nftslider_box_right_box}>
-            {/* <Image
+            <Image
               src={sliderdata[idNumber].nft_image}
               className={style.nftslider_box_right_box_img}
               alt="nft-image"
-            /> */}
+            />
 
             <div className={style.nftslider_box_right_heart}>
               <AiFillHeart />

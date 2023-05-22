@@ -1,0 +1,14 @@
+.section_heading {
+  width: 80%;
+  margin: 2rem auto;
+  padding: 1rem 0;
+}
+
+.section_heading_box h2 {
+  font-size: 3rem;
+  line-height: 1rem;
+}
+
+.section_heading_box p {
+  font-size: 1.2rem;
+}

@@ -13,6 +13,7 @@ import { RiSendPlaneFill } from "react-icons/ri";
 import style from "./footer.module.css";
 import images from "../img/index";
 import { Discover, Help } from "../Navbar";
+import Title from "../Title/Title";
 
 export const Footer = () => {
   return (
@@ -23,11 +24,11 @@ export const Footer = () => {
             <Image src={images.logo} width={100} height={100} alt="nft brand" />
           </div>
           <div className={style.footer_nft_detail_details}>
-            <p>
-              The world’s first and largest digital marketplace for crypto
+            <Title
+              paragraph="The world’s first and largest digital marketplace for crypto
               collectibles and non-fungible tokens (NFTs). Buy, sell, and
-              discover exclusive digital items.
-            </p>
+              discover exclusive digital items."
+            />
           </div>
           <div className={style.footer_nft_detail_social_icons}>
             <a href="#">
@@ -62,10 +63,10 @@ export const Footer = () => {
             <RiSendPlaneFill />
           </div>
           <div className={style.footer_info}>
-            <p>
-              Discover, collect, and sell extraordinary NFTs OpenSea is the
-              world first and largest NFT marketplace
-            </p>
+            <Title
+              paragraph="Discover, collect, and sell extraordinary NFTs OpenSea is the
+              world first and largest NFT marketplace"
+            />
           </div>
         </div>
       </div>
