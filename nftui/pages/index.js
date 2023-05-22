@@ -2,6 +2,7 @@ import React from "react";
 import style from "../styles/home.module.css";
 
 import {
+  Filter,
   Heading,
   Herosection,
   Nftslider,
@@ -17,9 +18,10 @@ const Home = () => {
       <Nftslider />
       <Subscribe />
       <Heading
-        heading="Browse by category"
-        paragraph="Explore the NFTs in the most featured categories."
+        heading="What's trending now"
+        paragraph="Discover the most trending products in current market trend."
       />
+      <Filter />
     </div>
   );
 };

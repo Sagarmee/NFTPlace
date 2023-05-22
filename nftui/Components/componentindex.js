@@ -6,6 +6,7 @@ import Nftslider from "./Nftslider/Nftslider";
 import Subscribe from "./Subscribe/Subscribe";
 import Title from "./Title/Title";
 import Heading from "./Heading/Heading";
+import Filter from "./Filter/Filter";
 
 export {
   Navbar,
@@ -16,4 +17,5 @@ export {
   Subscribe,
   Title,
   Heading,
+  Filter,
 };

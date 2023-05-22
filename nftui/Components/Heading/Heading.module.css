@@ -12,3 +12,9 @@
 .section_heading_box p {
   font-size: 1.2rem;
 }
+
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  .section_heading_box h2 {
+    line-height: 4rem;
+  }
+}
