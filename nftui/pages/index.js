@@ -2,6 +2,7 @@ import React from "react";
 import style from "../styles/home.module.css";
 
 import {
+  Collection,
   Filter,
   Heading,
   Herosection,
@@ -17,6 +18,11 @@ const Home = () => {
       <Herosection />
       <Services />
       <Nftslider />
+      <Heading
+        heading="Filter By Collections"
+        paragraph="Discover the most trending products in current market trend."
+      />
+      <Collection />
       <Subscribe />
       <Heading
         heading="What's trending now"

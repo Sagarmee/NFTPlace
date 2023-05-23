@@ -8,6 +8,7 @@ import Title from "./Title/Title";
 import Heading from "./Heading/Heading";
 import Filter from "./Filter/Filter";
 import Nftcard from "./Nftcard/Nftcard";
+import Collection from "./Collection/Collection";
 
 export {
   Navbar,
@@ -20,4 +21,5 @@ export {
   Heading,
   Filter,
   Nftcard,
+  Collection,
 };

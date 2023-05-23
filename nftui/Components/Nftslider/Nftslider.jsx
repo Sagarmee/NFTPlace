@@ -187,11 +187,11 @@ const Nftslider = () => {
 
         <div className={style.nftslider_box_right}>
           <div className={style.nftslider_box_right_box}>
-            {/* <Image
+            <Image
               src={sliderdata[idNumber].nft_image}
               className={style.nftslider_box_right_box_img}
               alt="nft-image"
-            /> */}
+            />
 
             <div className={style.nftslider_box_right_heart}>
               <AiFillHeart />
