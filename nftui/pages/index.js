@@ -5,6 +5,7 @@ import {
   Filter,
   Heading,
   Herosection,
+  Nftcard,
   Nftslider,
   Services,
   Subscribe,
@@ -22,6 +23,7 @@ const Home = () => {
         paragraph="Discover the most trending products in current market trend."
       />
       <Filter />
+      <Nftcard />
     </div>
   );
 };

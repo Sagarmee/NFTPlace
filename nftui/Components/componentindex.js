@@ -7,6 +7,7 @@ import Subscribe from "./Subscribe/Subscribe";
 import Title from "./Title/Title";
 import Heading from "./Heading/Heading";
 import Filter from "./Filter/Filter";
+import Nftcard from "./Nftcard/Nftcard";
 
 export {
   Navbar,
@@ -18,4 +19,5 @@ export {
   Title,
   Heading,
   Filter,
+  Nftcard,
 };

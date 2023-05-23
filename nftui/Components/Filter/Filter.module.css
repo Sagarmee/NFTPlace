@@ -46,6 +46,12 @@
   gap: 1rem;
 }
 
+.filter_box_right_box {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
 .filter_items {
   width: 80%;
   margin: 0 auto;
