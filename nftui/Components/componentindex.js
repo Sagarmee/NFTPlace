@@ -9,6 +9,7 @@ import Heading from "./Heading/Heading";
 import Filter from "./Filter/Filter";
 import Nftcard from "./Nftcard/Nftcard";
 import Collection from "./Collection/Collection";
+import Follower_Tab from "./Follower/Follower_Tab";
 
 export {
   Navbar,
@@ -22,4 +23,5 @@ export {
   Filter,
   Nftcard,
   Collection,
+  Follower_Tab,
 };

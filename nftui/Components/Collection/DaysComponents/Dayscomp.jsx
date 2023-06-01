@@ -53,7 +53,6 @@ const DaysComponents = () => {
                 alt="profile"
                 width={30}
                 height={30}
-                objectFit="covers"
                 className={Style.daysComponent_box_title_info_profile_img}
               />
 

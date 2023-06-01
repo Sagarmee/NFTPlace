@@ -4,6 +4,7 @@ import style from "../styles/home.module.css";
 import {
   Collection,
   Filter,
+  Follower_Tab,
   Heading,
   Herosection,
   Nftcard,
@@ -30,6 +31,7 @@ const Home = () => {
       />
       <Filter />
       <Nftcard />
+      <Follower_Tab />
     </div>
   );
 };
