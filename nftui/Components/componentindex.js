@@ -10,6 +10,8 @@ import Filter from "./Filter/Filter";
 import Nftcard from "./Nftcard/Nftcard";
 import Collection from "./Collection/Collection";
 import Follower_Tab from "./Follower/Follower_Tab";
+import Audio from "./AudioComponent/Audio";
+import LikeProfile from "./LikeProfile/LikeProfile";
 
 export {
   Navbar,
@@ -24,4 +26,6 @@ export {
   Nftcard,
   Collection,
   Follower_Tab,
+  Audio,
+  LikeProfile,
 };

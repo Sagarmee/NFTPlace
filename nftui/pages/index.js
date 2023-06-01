@@ -11,6 +11,7 @@ import {
   Nftslider,
   Services,
   Subscribe,
+  Audio,
 } from "../Components/componentindex";
 
 const Home = () => {
@@ -31,6 +32,7 @@ const Home = () => {
       />
       <Filter />
       <Nftcard />
+      <Audio />
       <Follower_Tab />
     </div>
   );
