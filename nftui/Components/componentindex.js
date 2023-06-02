@@ -12,6 +12,7 @@ import Collection from "./Collection/Collection";
 import Follower_Tab from "./Follower/Follower_Tab";
 import Audio from "./AudioComponent/Audio";
 import LikeProfile from "./LikeProfile/LikeProfile";
+import Slider from "./Slider/Slider";
 
 export {
   Navbar,
@@ -28,4 +29,5 @@ export {
   Follower_Tab,
   Audio,
   LikeProfile,
+  Slider,
 };

@@ -12,6 +12,7 @@ import {
   Services,
   Subscribe,
   Audio,
+  Slider,
 } from "../Components/componentindex";
 
 const Home = () => {
@@ -21,19 +22,28 @@ const Home = () => {
       <Services />
       <Nftslider />
       <Heading
+        heading="Listen NFTs audio live"
+        paragraph="Click on music icon and enjoy NTF music or audio."
+      />
+      <Audio />
+      <Follower_Tab />
+      <Slider />
+      <Collection />
+      {/* <Heading
         heading="Filter By Collections"
         paragraph="Discover the most trending products in current market trend."
-      />
-      <Collection />
-      <Subscribe />
+      /> */}
       <Heading
         heading="What's trending now"
         paragraph="Discover the most trending products in current market trend."
       />
       <Filter />
       <Nftcard />
-      <Audio />
-      <Follower_Tab />
+      <Heading
+        heading="Listen NFTs audio live"
+        paragraph="Click on music icon and enjoy NTF music or audio."
+      />
+      <Subscribe />
     </div>
   );
 };
