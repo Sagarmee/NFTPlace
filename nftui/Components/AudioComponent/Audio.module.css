@@ -4,25 +4,18 @@
 }
 
 .audiolive_box {
-  display: grid;
+  display: flex;
+  gap: 2rem;
+  justify-content: space-around;
+  align-items: center;
   width: 80%;
   margin: 0 auto;
-  border: 1px solid black;
   padding-block: 2rem 8rem;
-  grid-template-columns: 2.5fr, 1fr;
-  gap: 2rem;
 }
 
 .audiolive_box_left {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
   gap: 2rem;
-}
-
-.audiolive_box_right {
-  padding: 0.5rem 0 0 0;
-  gap: 2rem;
-  display: grid;
 }
 
 @media screen and (min-width: 320px) and (max-width: 375px) {

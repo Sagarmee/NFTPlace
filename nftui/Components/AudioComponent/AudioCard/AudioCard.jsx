@@ -92,7 +92,7 @@ const AudioCard = () => {
         {/* nftimg */}
         <div className={style.audiocard_box_img}>
           <Image
-            src={images.creatorbackground1}
+            src={images.creatorbackground10}
             alt="background"
             width={500}
             height={500}
