@@ -13,6 +13,7 @@ import {
   Subscribe,
   Audio,
   Slider,
+  Brand,
 } from "../Components/componentindex";
 
 const Home = () => {
@@ -44,6 +45,7 @@ const Home = () => {
         paragraph="Click on music icon and enjoy NTF music or audio."
       />
       <Subscribe />
+      <Brand />
     </div>
   );
 };

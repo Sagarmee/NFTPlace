@@ -10,9 +10,9 @@ const Slider = () => {
   const [width, setwidth] = useState(0);
   const dragslider = useRef();
 
-  useEffect(() => {
-    setwidth(dragslider.current.scrollWidth - dragslider.current.offsetWidth);
-  });
+  // useEffect(() => {
+  //   setwidth(dragslider.current.scrollWidth - dragslider.current.offsetWidth);
+  // });
 
   const handlescroll = (direction) => {
     const { current } = dragslider;
@@ -49,7 +49,7 @@ const Slider = () => {
           </div>
         </div>
 
-        <motion.div className={style.slider_box_items} ref={dragslider}>
+        {/* <motion.div className={style.slider_box_items} ref={dragslider}>
           <motion.div
             ref={dragslider}
             className={style.slider_box_item}
@@ -60,7 +60,7 @@ const Slider = () => {
               <SliderCard key={i + 1} ele={ele} i={i} />
             ))}
           </motion.div>
-        </motion.div>
+        </motion.div> */}
       </div>
     </div>
   );

@@ -1,0 +1,31 @@
+.brand_box {
+  width: 80%;
+  margin: 0 auto;
+  padding: 5rem 0 5rem 0;
+}
+
+.brand_box_images {
+  margin-bottom: -2rem;
+}
+
+.brand_box_brand {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8rem;
+}
+
+.brand_box_brand_left h1 {
+  font-size: 5rem;
+  margin-bottom: -1rem;
+}
+.brand_box_left_btn {
+  margin-top: 2rem;
+  display: flex;
+  gap: 2rem;
+}
+
+@media screen and (min-width: 360px) and (max-width: 1000px) {
+  .brand_box_brand {
+    grid-template-columns: 1fr;
+  }
+}
