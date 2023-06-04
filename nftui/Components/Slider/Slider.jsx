@@ -8,11 +8,7 @@ import SliderCard from "./SliderCard/SliderCard";
 const Slider = () => {
   const sliderArray = [1, 2, 3, 4, 5, 6];
   const [width, setwidth] = useState(0);
-  const dragslider = useRef();
-
-  // useEffect(() => {
-  //   setwidth(dragslider.current.scrollWidth - dragslider.current.offsetWidth);
-  // });
+  const dragslider = useRef(null);
 
   const handlescroll = (direction) => {
     const { current } = dragslider;
@@ -25,6 +21,10 @@ const Slider = () => {
       current.scrollLeft += scrollAmount;
     }
   };
+
+  // useEffect(() => {
+  //   setwidth(dragslider.current.scrollWidth - dragslider.current.offsetWidth);
+  // }, []);
 
   return (
     <div className={style.slider}>

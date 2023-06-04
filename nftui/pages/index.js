@@ -14,6 +14,7 @@ import {
   Audio,
   Slider,
   Brand,
+  Video,
 } from "../Components/componentindex";
 
 const Home = () => {
@@ -40,12 +41,9 @@ const Home = () => {
       />
       <Filter />
       <Nftcard />
-      <Heading
-        heading="Listen NFTs audio live"
-        paragraph="Click on music icon and enjoy NTF music or audio."
-      />
       <Subscribe />
       <Brand />
+      <Video />
     </div>
   );
 };

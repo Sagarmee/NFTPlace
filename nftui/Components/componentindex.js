@@ -14,6 +14,7 @@ import Audio from "./AudioComponent/Audio";
 import LikeProfile from "./LikeProfile/LikeProfile";
 import Slider from "./Slider/Slider";
 import Brand from "./Brand/Brand";
+import Video from "./VideoComp/Video";
 
 export {
   Navbar,
@@ -32,4 +33,5 @@ export {
   LikeProfile,
   Slider,
   Brand,
+  Video,
 };
