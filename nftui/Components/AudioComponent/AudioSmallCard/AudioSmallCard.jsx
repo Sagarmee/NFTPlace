@@ -9,6 +9,11 @@ import LikeProfile from "../../LikeProfile/LikeProfile";
 
 const AudioSmallCard = () => {
   const [play, setplay] = useState(false);
+  const img = [
+    images.creatorbackground1,
+    images.creatorbackground2,
+    images.creatorbackground3,
+  ];
 
   const playbtn = () => {
     if (!play) {

@@ -5,10 +5,23 @@ import { BsImages } from "react-icons/bs";
 
 //intenal import
 import style from "./Nftcard.module.css";
-import Images from ".././img/index";
+import images from ".././img/index";
 
 const Nftcard = () => {
-  const NftArray = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+  const NftArray = [
+    images.nft_image_1,
+    images.nft_image_2,
+    images.nft_image_3,
+    images.nft_image_3,
+    images.nft_image_2,
+    images.nft_image_1,
+    images.nft_image_2,
+    images.nft_image_1,
+    images.nft_image_3,
+    images.nft_image_3,
+    images.nft_image_1,
+    images.nft_image_2,
+  ];
 
   const [Like, setLike] = useState(true);
 
@@ -25,7 +38,7 @@ const Nftcard = () => {
         <div className={style.nftcard_box} key={i + 1}>
           <div className={style.nftcard_box_img}>
             <Image
-              src={Images.nft_image_1}
+              src={ele}
               alt="nft_image"
               width={600}
               height={600}

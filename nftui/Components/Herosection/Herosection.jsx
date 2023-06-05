@@ -17,14 +17,15 @@ const Herosection = () => {
             paragraph="Discover the most outstanding NTFs in all topics of life. Creative
             your NTFs and sell them"
           />
-          <Button btnName="Start your search" />
+          <div className={style.heroSection_box_left_btn}>
+            <Button btnName="Start your search" />
+          </div>
         </div>
         <div className={style.heroSection_box_right}>
           <Image
             src={images.hero}
             alt="Hero section"
-            width={600}
-            height={600}
+            className={style.heroSection_box_right_img}
           />
         </div>
       </div>

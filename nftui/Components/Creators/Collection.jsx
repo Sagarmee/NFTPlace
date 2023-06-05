@@ -1,16 +1,20 @@
 import React, { useState, useEffect } from "react";
 import {
-  RiUserFollowFill,
-  RiUserUnfollowFill,
-  RiAwardLine,
-} from "react-icons/ri";
+  BsFillAlarmFill,
+  BsFillCalendarDateFill,
+  BsCalendar3,
+} from "react-icons/bs";
 
 //INTERNAL IMPORT
-import Style from "./Follower_Tab.module.css";
-import Follower_Card from "./Follower_Card/Follower_Card";
-import images from ".././img/index";
+import Style from "./Collection.module.css";
+import DaysComponents from "./DaysComponents/Dayscomp";
+import images from "../img/index";
 
-const FollowerTab = () => {
+const Collection = () => {
+  const [popular, setPopular] = useState(true);
+  const [following, setFollowing] = useState(false);
+  const [news, setNews] = useState(false);
+
   const CardArray = [
     {
       background: images.creatorbackground1,
@@ -45,7 +49,7 @@ const FollowerTab = () => {
       user: images.user8,
     },
   ];
-  const FollowingArray = [
+  const followingArray = [
     {
       background: images.creatorbackground7,
       user: images.user7,
@@ -79,7 +83,7 @@ const FollowerTab = () => {
       user: images.user3,
     },
   ];
-  const NewsArray = [
+  const newsArray = [
     {
       background: images.creatorbackground5,
       user: images.user5,
@@ -106,10 +110,6 @@ const FollowerTab = () => {
     },
   ];
 
-  const [popular, setPopular] = useState(true);
-  const [following, setFollowing] = useState(false);
-  const [news, setNews] = useState(false);
-
   const openPopular = () => {
     if (!popular) {
       setPopular(true);
@@ -117,6 +117,7 @@ const FollowerTab = () => {
       setNews(false);
     }
   };
+
   const openFollower = () => {
     if (!following) {
       setPopular(false);
@@ -124,6 +125,7 @@ const FollowerTab = () => {
       setNews(false);
     }
   };
+
   const openNews = () => {
     if (!news) {
       setPopular(false);
@@ -131,58 +133,49 @@ const FollowerTab = () => {
       setNews(true);
     }
   };
-
   return (
-    <div className={Style.followerTab}>
-      <div className={Style.followerTab_title}>
-        <h2> Top Creators List..</h2>
-        <div className={Style.followerTab_tabs}>
-          <div className={Style.followerTab_tabs_btn}>
+    <div className={Style.collection}>
+      <div className={Style.collection_title}>
+        <h2>Top List Creators</h2>
+        <div className={Style.collection_collections}>
+          <div className={Style.collection_collections_btn}>
             <button onClick={() => openPopular()}>
-              <RiUserFollowFill /> Popular
+              <BsFillAlarmFill /> 24 hours
             </button>
             <button onClick={() => openFollower()}>
-              <RiUserFollowFill /> Following
+              <BsCalendar3 /> 7 days
             </button>
             <button onClick={() => openNews()}>
-              <RiAwardLine /> NoteWorthy
+              <BsFillCalendarDateFill /> 30 days
             </button>
           </div>
         </div>
       </div>
-
       {popular && (
-        <div className={Style.followerTab_box}>
+        <div className={Style.collection_box}>
           {CardArray.map((el, i) => (
-            <Follower_Card key={i + 1} i={i} el={el} />
+            <DaysComponents key={i + 1} i={i} el={el} />
           ))}
         </div>
       )}
 
       {following && (
-        <div className={Style.followerTab_box}>
-          {FollowingArray.map((el, i) => (
-            <Follower_Card key={i + 1} i={i} el={el} />
+        <div className={Style.collection_box}>
+          {followingArray.map((el, i) => (
+            <DaysComponents key={i + 1} i={i} el={el} />
           ))}
         </div>
       )}
 
       {news && (
-        <div className={Style.followerTab_box}>
-          {NewsArray.map((el, i) => (
-            <Follower_Card key={i + 1} i={i} el={el} />
+        <div className={Style.collection_box}>
+          {newsArray.map((el, i) => (
+            <DaysComponents key={i + 1} i={i} el={el} />
           ))}
         </div>
       )}
-
-      <div className={Style.followerTab_member}>
-        <div className={Style.followerTab_member_box}>
-          <a href="#">Show me more</a>
-          <a href="#">Become, author</a>
-        </div>
-      </div>
     </div>
   );
 };
 
-export default FollowerTab;
+export default Collection;

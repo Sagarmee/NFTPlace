@@ -30,19 +30,19 @@ const Home = () => {
       <Audio />
       <Follower_Tab />
       <Slider />
-      <Collection />
-      {/* <Heading
-        heading="Filter By Collections"
-        paragraph="Discover the most trending products in current market trend."
-      /> */}
       <Heading
         heading="What's trending now"
+        paragraph="Discover the most trending products in current market trend."
+      />
+      <Collection />
+      <Brand />
+      <Heading
+        heading="Filter By Collections"
         paragraph="Discover the most trending products in current market trend."
       />
       <Filter />
       <Nftcard />
       <Subscribe />
-      <Brand />
       <Video />
     </div>
   );

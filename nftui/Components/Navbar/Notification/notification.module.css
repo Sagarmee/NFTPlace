@@ -59,8 +59,9 @@
 
 @media screen and (max-width: 50em) {
   .notification {
-    width: 20rem;
-    left: -15rem;
+    width: 22rem;
+    left: -12rem;
+    top: 5rem;
   }
 
   .notification_profile {

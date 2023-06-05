@@ -62,5 +62,15 @@
   padding: 2rem;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 3rem;
+}
+
+@media screen and (max-width: 50em) {
+  .sidebar_closebtn {
+    margin-right: 2rem;
+  }
+
+  .sidebar_menu {
+    margin: 0 1rem 0 1rem;
+  }
 }

@@ -8,7 +8,7 @@ import Title from "./Title/Title";
 import Heading from "./Heading/Heading";
 import Filter from "./Filter/Filter";
 import Nftcard from "./Nftcard/Nftcard";
-import Collection from "./Collection/Collection";
+import Collection from "./Creators/Collection";
 import Follower_Tab from "./Follower/Follower_Tab";
 import Audio from "./AudioComponent/Audio";
 import LikeProfile from "./LikeProfile/LikeProfile";

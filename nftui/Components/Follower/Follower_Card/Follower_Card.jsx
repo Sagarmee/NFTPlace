@@ -6,7 +6,7 @@ import { TiTick } from "react-icons/ti";
 //INTERNAL IMPORT
 import Style from "./Follower_Card.module.css";
 import images from "../../img/index";
-const Follower_Card = ({ i, item }) => {
+const Follower_Card = ({ i, el }) => {
   const [following, setFollowing] = useState(false);
 
   const followMe = () => {
@@ -28,7 +28,7 @@ const Follower_Card = ({ i, item }) => {
         <div className={Style.FollowerTabCard_box_img}>
           <Image
             className={Style.FollowerTabCard_box_img_img}
-            src={images.creatorbackground1}
+            src={el.background}
             alt="profile braground"
             width={450}
             height={300}
@@ -41,7 +41,7 @@ const Follower_Card = ({ i, item }) => {
             alt="profile picture"
             width={50}
             height={50}
-            src={images.user1}
+            src={el.user}
           />
         </div>
 

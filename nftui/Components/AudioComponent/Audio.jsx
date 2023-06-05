@@ -4,6 +4,7 @@ import React from "react";
 import style from "./Audio.module.css";
 import AudioSmallCard from "./AudioSmallCard/AudioSmallCard";
 import AudioCard from "./AudioCard/AudioCard";
+import images from ".././img/index";
 
 const Audio = () => {
   return (
