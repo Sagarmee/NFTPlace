@@ -42,6 +42,11 @@ import nft_image_3 from "./nft-image-3.png";
 import musiceWave from "./musicwave.png";
 import update from "./update.png";
 import nftvideo from "./nftvideo.png";
+import nft_image_4 from "./nft-image-4.png";
+import nft_image_5 from "./nft-image-5.png";
+import nft_image_6 from "./nft-image-6.png";
+import nft_image_7 from "./nft-image-7.png";
+import nft_image_8 from "./nft-image-8.png";
 
 export default {
   collection,
@@ -50,6 +55,11 @@ export default {
   nft_image_1,
   nft_image_2,
   nft_image_3,
+  nft_image_4,
+  nft_image_5,
+  nft_image_6,
+  nft_image_7,
+  nft_image_8,
   getAble,
   nft_1,
   hero,
