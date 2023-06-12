@@ -29,7 +29,7 @@ const Home = () => {
       />
       <Audio />
       <Follower_Tab />
-      <Slider />
+      {/* <Slider /> */}
       <Heading
         heading="What's trending now"
         paragraph="Discover the most trending products in current market trend."
