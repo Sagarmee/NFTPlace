@@ -12,7 +12,7 @@ const Discover = () => {
     },
     {
       name: "Search page",
-      url: "seach-page",
+      url: "Search",
     },
     {
       name: "Author profile",

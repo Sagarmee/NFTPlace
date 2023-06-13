@@ -27,6 +27,7 @@ const Navbar = () => {
   //manage discover state
   const openMenu = (e) => {
     const btntext = e.target.innerText;
+
     if (btntext === "Discover") {
       setDiscover(true);
       setHelp(false);
@@ -37,7 +38,6 @@ const Navbar = () => {
       setHelp(true);
       setNotification(false);
       setProfile(false);
-      console.log(btntext);
     } else {
       setDiscover(false);
       setHelp(false);
