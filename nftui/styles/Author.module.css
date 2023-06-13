@@ -1,1 +1,9 @@
-
+.author_box {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 6rem;
+}

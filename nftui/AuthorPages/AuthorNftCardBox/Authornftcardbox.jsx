@@ -102,7 +102,7 @@ const Authornftcardbox = ({
         </div>
       )}
       {following && (
-        <div className={style.Authornftcardbox_box}>
+        <div className={style.authornftcardbox_box}>
           {followingarray.map((el, i) => (
             <Follower_tab_card i={i} el={el} />
           ))}

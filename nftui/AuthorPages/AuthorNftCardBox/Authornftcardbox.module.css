@@ -1,0 +1,25 @@
+.authornftcardbox {
+  width: 100%;
+  margin-bottom: 14rem;
+}
+.authornftcardbox_box {
+  width: 80%;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  overflow: hidden;
+  gap: 3rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .authornftcardbox_box {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1080px) {
+  .authornftcardbox_box {
+    grid-template-columns: 1fr 1fr;
+  }
+}
