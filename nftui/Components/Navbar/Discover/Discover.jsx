@@ -24,7 +24,7 @@ const Discover = () => {
     },
     {
       name: "Account settings",
-      url: "account-setting",
+      url: "Account",
     },
     {
       name: "Connect wallet",
