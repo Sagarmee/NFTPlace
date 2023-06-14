@@ -32,7 +32,7 @@ const Discover = () => {
     },
     {
       name: "Upload item",
-      url: "upload item",
+      url: "UploadNft",
     },
   ];
 
