@@ -8,23 +8,23 @@ const Help = () => {
   const help = [
     {
       name: "About",
-      link: "about",
+      url: "About",
     },
     {
       name: "Contact Us",
-      link: "contact-us",
+      url: "Contact",
     },
     {
       name: "Sign Up",
-      link: "sign-up",
+      url: "Signup",
     },
     {
       name: "Sign In",
-      link: "sign-in",
+      url: "SignIn",
     },
     {
       name: "Subscription",
-      link: "subscription",
+      url: "Subscription",
     },
   ];
   return (

@@ -47,6 +47,15 @@ import nft_image_5 from "./nft-image-5.png";
 import nft_image_6 from "./nft-image-6.png";
 import nft_image_7 from "./nft-image-7.png";
 import nft_image_8 from "./nft-image-8.png";
+import provider1 from "./provider-1.png";
+import provider2 from "./provider-2.png";
+import provider3 from "./provider-3.png";
+import provider4 from "./provider-4.png";
+import founder1 from "./founder1.jpg";
+import founder2 from "./founder2.jpg";
+import founder3 from "./founder3.jpg";
+import founder4 from "./founder4.jpg";
+import hero2 from "./hero2.png";
 
 export default {
   collection,
@@ -60,9 +69,18 @@ export default {
   nft_image_6,
   nft_image_7,
   nft_image_8,
+  hero2,
+  founder1,
+  founder2,
+  founder3,
+  founder4,
   getAble,
   nft_1,
   hero,
+  provider1,
+  provider2,
+  provider3,
+  provider4,
   creatorbackground1,
   creatorbackground2,
   creatorbackground3,

@@ -28,7 +28,7 @@ const Discover = () => {
     },
     {
       name: "Connect wallet",
-      url: "connect wallet",
+      url: "ConnectWallet",
     },
     {
       name: "Upload item",
