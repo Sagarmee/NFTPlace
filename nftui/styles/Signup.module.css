@@ -1,0 +1,33 @@
+.Signup {
+  width: 100%;
+  margin-block: 5rem;
+}
+
+.Signup_box {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.Signup_box h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 5rem;
+}
+
+.Signup_box_para {
+  text-align: center;
+  line-height: 0;
+  margin-top: 3rem;
+  font-weight: 700;
+}
+
+.Signup_box_para a {
+  font-weight: 500;
+  margin-left: 1rem;
+}
+
+@media screen and (max-width: 35em) {
+  .Signup_box {
+    width: 90%;
+  }
+}

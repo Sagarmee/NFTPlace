@@ -19,8 +19,8 @@ const Help = () => {
       url: "Signup",
     },
     {
-      name: "Sign In",
-      url: "SignIn",
+      name: "Login",
+      url: "Login",
     },
     {
       name: "Subscription",

@@ -15,6 +15,7 @@ import LikeProfile from "./LikeProfile/LikeProfile";
 import Slider from "./Slider/Slider";
 import Brand from "./Brand/Brand";
 import Video from "./VideoComp/Video";
+import Category from "./Category/Category";
 
 export {
   Navbar,
@@ -34,4 +35,5 @@ export {
   Slider,
   Brand,
   Video,
+  Category,
 };

@@ -15,6 +15,7 @@ import {
   Slider,
   Brand,
   Video,
+  Category,
 } from "../Components/componentindex";
 
 const Home = () => {
@@ -42,6 +43,11 @@ const Home = () => {
       />
       <Filter />
       <Nftcard />
+      <Heading
+        heading="Browse by category"
+        paragraph="Explore the NFTs in the most featured categories."
+      />
+      <Category />
       <Subscribe />
       <Video />
     </div>
